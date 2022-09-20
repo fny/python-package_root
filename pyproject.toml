@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "package_root"
+version = "1.0.0"
+license = "MIT"
+description = "import package_root # into your PYTHON_PATH"
+authors = ["Faraz Yashar <faraz.yashar@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/fny/python-package_root"
+repository = "https://github.com/fny/python-package_root"
+documentation = "https://github.com/fny/python-package_root"
+keywords = ["package_root", "project", "root", "path", "python", "utlity", "common", "root", "rootpath", "root-path", "detect", "autodetect", "auto-detect", "project-root", "project-root-path", "package-root", "package-root-path"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 5 - Production/Stable",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+notebook = "^6.4.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
